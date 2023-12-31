@@ -1,0 +1,438 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* .container::before {
+    content: '';
+    position: absolute;
+    display: flex;
+    top: 51%;
+    left: -10px;
+    width: 625px;
+    height: 120px;
+    background-color: #574632;
+    transform: translateY(-50%);
+    border-radius: 3px;
+    box-shadow: 1px 1px #3a2f21, 1px 1px #3a2f21, 2px 2px #3a2f21, 3px 3px #3a2f21;
+} */
+
+.bnt-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2D3235;
+    font-weight: normal;
+    width: 150px;
+    height: 35px;
+    background-color: #DAA51E;
+    border-radius: 5px;
+    box-shadow: 1px 1px #806112, 1px 1px #806112, 2px 2px #806112;
+}
+
+.btn-1:before {
+    content: 'La Cucaracha';
+    margin-right: 3px;
+}
+
+.btn-2:before {
+    content: 'Christmas Carol';
+    margin-right: 3px;
+}
+
+.btn-3:before {
+    content: 'Happy Birthday';
+    margin-right: 3px;
+}
+
+.btn-4:before {
+    content: 'Twinkle Twinkle';
+    margin-right: 3px;
+}
+
+.btn-5:before {
+    content: 'Cielito Lindo';
+    margin-right: 3px;
+}
+
+.btn:active {
+    box-shadow: 1px 1px #806112, 1px 1px #806112, 2px 2px #806112 inset;
+    color: #393f43;
+}
+
+.screw1,
+.screw2 {
+    width: 20px;
+    height: 20px;
+    background-color: #CCCCCC;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 1px 1px #999999, 1px 1px #999999;
+}
+
+.screw1-do1 {
+    top: 105px;
+}
+
+.screw1-do1:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(8deg);
+}
+
+.screw1-re {
+    top: 95px;
+}
+
+.screw1-re:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(54deg);
+}
+
+.screw1-mi {
+    top: 85px;
+}
+
+.screw1-mi:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(48deg);
+}
+
+.screw1-fa {
+    top: 75px;
+}
+
+.screw1-fa:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(22deg);
+}
+
+.screw1-sol {
+    top: 65px;
+}
+
+.screw1-sol:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(63deg);
+}
+
+.screw1-la {
+    top: 55px;
+}
+
+.screw1-la:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(97deg);
+}
+
+.screw1-si {
+    top: 45px;
+}
+
+.screw1-si:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(17deg);
+}
+
+.screw1-do2 {
+    top: 35px;
+}
+
+.screw1-do2:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(38deg);
+}
+
+.screw2-do1 {
+    top: 175px;
+}
+
+.screw2-do1:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(14deg);
+}
+
+.screw2-re {
+    top: 165px;
+}
+
+.screw2-re:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(27deg);
+}
+
+.screw2-mi {
+    top: 155px;
+}
+
+.screw2-mi:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(4deg);
+}
+
+.screw2-fa {
+    top: 145px;
+}
+
+.screw2-fa:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(38deg);
+}
+
+.screw2-sol {
+    top: 135px;
+}
+
+.screw2-sol:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(56deg);
+}
+
+.screw2-la {
+    top: 125px;
+}
+
+.screw2-la:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(18deg);
+}
+
+.screw2-si {
+    top: 115px;
+}
+
+.screw2-si:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(56deg);
+}
+
+.screw2-do2 {
+    top: 105px;
+}
+
+.screw2-do2:after {
+    content: '|';
+    color: #999999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(84deg);
+}
+
+.note {
+    width: 60px;
+    display: flex;
+    color: #3a2f21;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.note-do1 {
+    background-color: #FF0033;
+    height: 300px;
+    box-shadow: 1px 1px #d1002a, 1px 1px #d1002a, 2px 2px #d1002a, 3px 3px #d1002a;
+}
+
+.note-do1:after {
+    content: 'DO';
+}
+
+.note-do1:active {
+    background-color: #b30024;
+}
+
+.note-re {
+    background-color: #4A4475;
+    height: 280px;
+    box-shadow: 1px 1px #383358, 1px 1px #383358, 2px 2px #383358, 3px 3px #383358;
+}
+
+.note-re:after {
+    content: 'RE';
+}
+
+.note-re:active {
+    background-color: #2b2845;
+}
+
+.note-mi {
+    background-color: #1482A1;
+    height: 260px;
+    box-shadow: 1px 1px #0f6178, 1px 1px #0f6178, 2px 2px #0f6178, 3px 3px #0f6178;
+}
+
+.note-mi:after {
+    content: 'MI';
+}
+
+.note-mi:active {
+    background-color: #0c4b5d;
+}
+
+.note-fa {
+    background-color: #F3A30F;
+    height: 240px;
+    box-shadow: 1px 1px #ca870a, 1px 1px #ca870a, 2px 2px #ca870a, 3px 3px #ca870a;
+}
+
+.note-fa:after {
+    content: 'FA';
+}
+
+.note-fa:active {
+    background-color: #ad7309;
+}
+
+.note-sol {
+    background-color: #5DD3B1;
+    height: 220px;
+    box-shadow: 1px 1px #39c9a0, 1px 1px #39c9a0, 2px 2px #39c9a0, 3px 3px #39c9a0;
+}
+
+.note-sol:after {
+    content: 'SOL';
+}
+
+.note-sol:active {
+    background-color: #31b38d;
+}
+
+.note-la {
+    background-color: #90DBCF;
+    height: 200px;
+    box-shadow: 1px 1px #6dd0c0, 1px 1px #6dd0c0, 2px 2px #6dd0c0, 3px 3px #6dd0c0;
+}
+
+.note-la:after {
+    content: 'LA';
+}
+
+.note-la:active {
+    background-color: #56c8b6;
+}
+
+.note-si {
+    background-color: #FFA4A0;
+    height: 180px;
+    box-shadow: 1px 1px #ff7872, 1px 1px #ff7872, 2px 2px #ff7872, 3px 3px #ff7872;
+}
+
+.note-si:after {
+    content: 'SI';
+}
+
+.note-si:active {
+    background-color: #ff5b54;
+}
+
+.note-do2 {
+    background-color: #FF404B;
+    height: 160px;
+    box-shadow: 1px 1px #ff1220, 1px 1px #ff1220, 2px 2px #ff1220, 3px 3px #ff1220;
+}
+
+.note-do2:after {
+    content: 'DO';
+}
+
+.note-do2:active {
+    background-color: #f3000e;
+}
